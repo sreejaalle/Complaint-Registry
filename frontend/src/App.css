@@ -1,0 +1,465 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #eceff1;
+}
+
+.App {
+   max-width: 100%;
+   background-color: #B0BEC5;
+}
+
+ul {
+   display: flex;
+   list-style: none;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.nav-item p {
+   cursor: pointer;
+   font-size: 15px;
+   margin-top: 2px;
+}
+
+.nav-item p:hover {
+   color: red;
+}
+
+.container {
+   margin: 10px;
+}
+
+.home-container {
+   width: 100vw;
+   height: 88vh;
+   display: flex;
+}
+
+.left-side,
+.right-side {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.left-side img {
+   width: 120%;
+   height: 70%;
+}
+
+.right-side {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+span {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-letter {
+   font-size: 3em;
+   font-weight: bold;
+}
+
+.s-letter {
+   font-size: 1.5em;
+   font-weight: 500;
+}
+
+.t-letter {
+   font-size: 1.2em;
+   font-weight: 400;
+}
+
+.register {
+   border-radius: 30px;
+   background-color: #00796B;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   font-weight: 500;
+}
+
+.data {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid lightgray;
+}
+/* 
+.complaint-box {
+   position: relative;
+   margin-top: 10px;
+   width: 100%;
+   height: auto;
+   padding: 10px;
+}
+
+.compliant-form {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   padding: 20px;
+   border-radius: 10px;
+   background-color: #263238;
+   width: 80%;
+   color: white;
+} */
+
+.form-label {
+   font-weight: 500;
+}
+
+textarea.form-control {
+   resize: none;
+   height: 100px;
+   margin-bottom: 15px;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+   gap: 2rem;
+}
+
+.chat-container {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.chat-container h1 {
+   font-size: 22px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.message-window {
+   flex: 1;
+   overflow-y: auto;
+   padding: 10px;
+   width: 100%;
+   max-height: 200px;
+   background-color: #ffffff;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+.message {
+   background-color: #f5f5f5;
+   padding: 8px 10px;
+   margin-bottom: 8px;
+   border-radius: 5px;
+   border: 1px solid #ddd;
+   font-size: 14px;
+}
+
+.message p {
+   margin: 0;
+}
+
+.message small {
+   font-size: 10px;
+   color: gray;
+}
+
+.input-container {
+   display: flex;
+   align-items: center;
+   padding: 12px;
+   gap: 10px;
+   margin-top: 5px;
+}
+
+.input-container textarea {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 14px;
+   background-color: #fdfdfd;
+}
+
+.input-container button {
+   padding: 6px 14px;
+   font-size: 14px;
+   border: none;
+   border-radius: 15px;
+   background-color: #388E3C;
+   color: white;
+   font-weight: 500;
+}
+
+.accordian,
+.body {
+   min-height: 70vh;
+}
+
+.card {
+   transition: all 0.3s ease;
+}
+
+.card:hover {
+   transform: scale(1.01);
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+   .home-container {
+      flex-direction: column;
+      height: auto;
+   }
+
+   .left-side,
+   .right-side {
+      width: 100%;
+   }
+
+   .left-side img {
+      width: 90%;
+      height: auto;
+   }
+
+   .compliant-form {
+      position: static;
+      transform: none;
+      margin-top: 20px;
+   }
+
+   .message-window {
+      max-height: 150px;
+   }
+
+   .input-container {
+      flex-direction: column;
+      align-items: stretch;
+   }
+
+   .input-container button {
+      margin-top: 10px;
+   }
+}
+
+.hero-image img {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+}
+
+/* Modern Navbar Styling */
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f39c12 !important; /* Yellow-Orange Hover */
+}
+
+.navbar-nav .nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f39c12;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Align Navbar on large screens */
+@media (min-width: 768px) {
+  .navbar-nav {
+    gap: 2rem;
+  }
+}
+
+/* Optional: Add smooth fade-in on page load */
+.modern-hero,
+footer,
+.navbar {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Navbar Hover Styling */
+.nav-hover {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-hover:hover {
+  color: #f39c12 !important;
+}
+
+.nav-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f39c12;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.nav-hover:hover::after {
+  width: 100%;
+}
+
+/* Footer Link Hover Styling */
+.footer-link {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #f39c12 !important;
+}
+
+.footer-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f39c12;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.footer-link:hover::after {
+  width: 100%;
+}
+
+footer {
+  background-color: #000000 !important; /* pure black */
+  color: #ffffff;
+}
+
+.signup-section {
+  transition: background 0.5s ease-in-out;
+}
+
+.signup-card input,
+.signup-card .dropdown-toggle {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px 14px;
+  transition: all 0.3s ease;
+}
+
+.signup-card input:focus,
+.signup-card .dropdown-toggle:focus {
+  border-color: #e67e22;
+  box-shadow: 0 0 0 0.2rem rgba(230, 126, 34, 0.25);
+}
+
+.signup-card button:hover {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: #f39c12;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.signup-wrapper {
+  min-height: 100vh;
+  background-color: #e67e22;
+  padding: 2rem 1rem;
+}
+
+.signup-card {
+  background: #fff;
+  border-radius: 20px;
+  max-width: 460px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+.signup-card input.form-control,
+.signup-card .form-control:focus,
+.signup-card .dropdown-toggle {
+  height: 45px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+/* Optional - for consistent styling */
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+button:hover {
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: #f1c40f !important;
+}
+
+
+.nav-link {
+  transition: all 0.2s ease-in-out;
+}
+.nav-link:hover {
+  color: #00d4ff !important;
+  text-decoration: underline;
+}
+.hover-card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
