@@ -30,7 +30,7 @@
 
 ---
 
-##  Tech Stack**
+##  **Tech Stack**
 
 - **Frontend**: React.js, React-Bootstrap, React-Router  
 - **Backend**: Node.js, Express.js  
@@ -41,7 +41,7 @@
 
 ---
 
-##  How to Run Locally**
+##  **How to Run Locally**
 
 ### **Clone the repository**
 ```bash
@@ -67,7 +67,7 @@ npm start
 
 ---
 
-##  Folder Structure**
+##  **Folder Structure**
 
 ```
 /backend
@@ -79,11 +79,9 @@ npm start
 ├── pages/
 ├── components/
 └── App.js
-```
 
----
 
-## Future Improvements**
+## **Future Improvements**
 
 - **Add file uploads** for complaint proof  
 - **Role-based dashboard analytics**  
