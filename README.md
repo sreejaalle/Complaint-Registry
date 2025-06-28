@@ -4,7 +4,7 @@
 
 ---
 
-## **🌟 Features**
+## ** Features**
 
 ### **User Roles**
 - **Ordinary Users** can **register complaints** and **track their status**.
@@ -30,7 +30,7 @@
 
 ---
 
-## **🛠 Tech Stack**
+##  Tech Stack**
 
 - **Frontend**: React.js, React-Bootstrap, React-Router  
 - **Backend**: Node.js, Express.js  
@@ -41,7 +41,7 @@
 
 ---
 
-## **🚀 How to Run Locally**
+##  How to Run Locally**
 
 ### **Clone the repository**
 ```bash
@@ -63,11 +63,11 @@ npm install
 npm start
 ```
 
-> 📌 Make sure **MongoDB is running locally** or connect to your **MongoDB Atlas cluster**.
+>  Make sure **MongoDB is running locally** or connect to your **MongoDB Atlas cluster**.
 
 ---
 
-## **📁 Folder Structure**
+##  Folder Structure**
 
 ```
 /backend
@@ -83,7 +83,7 @@ npm start
 
 ---
 
-## **🔮 Future Improvements**
+## Future Improvements**
 
 - **Add file uploads** for complaint proof  
 - **Role-based dashboard analytics**  
