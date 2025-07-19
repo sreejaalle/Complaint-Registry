@@ -1,7 +1,8 @@
 ✅ 1. Project Title & Demo
  ResolveNow- Smart Complaint Management System**
+ 
  🎥 Demo Video
-▶️ Click here to watch the demo
+ https://drive.google.com/file/d/1643Pm2Qn3DJqQMF5yl8IBbZiG91qqCeD/view?usp=sharing
 
 ✅ 2. Project Description
 **ResolveNow** is a **full-stack web application** designed to streamline the process of lodging, assigning, and resolving complaints in an **efficient, user-friendly** manner. It features **role-based access** for **Ordinary Users**, **Agents**, and **Admins**, with **real-time updates** and a built-in **chat system**.
