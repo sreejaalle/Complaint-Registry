@@ -1,36 +1,14 @@
-# **ComplaintCare - Smart Complaint Management System**
+✅ 1. Project Title & Demo
+ ResolveNow- Smart Complaint Management System**
+ 🎥 Demo Video
+▶️ Click here to watch the demo
 
-**ComplaintCare** is a **full-stack web application** designed to streamline the process of lodging, assigning, and resolving complaints in an **efficient, user-friendly** manner. It features **role-based access** for **Ordinary Users**, **Agents**, and **Admins**, with **real-time updates** and a built-in **chat system**.
+✅ 2. Project Description
+**ResolveNow** is a **full-stack web application** designed to streamline the process of lodging, assigning, and resolving complaints in an **efficient, user-friendly** manner. It features **role-based access** for **Ordinary Users**, **Agents**, and **Admins**, with **real-time updates** and a built-in **chat system**.
 
----
 
-## ** Features**
 
-### **User Roles**
-- **Ordinary Users** can **register complaints** and **track their status**.
-- **Agents** are **assigned complaints** and can **update resolution statuses**.
-- **Admins** manage all users and **assign complaints to agents**.
-
-### **Complaint Management**
-- **Submit**, **track**, and **manage complaints** by **category**, **location**, and **status**.
-- **Admins** can **view all complaints** and **assign them to agents**.
-
-### **Live Chat System**
-- Integrated **chat** between **agents** and **users** for each complaint (via **ChatWindow** component).
-
-### **Authentication & Authorization**
-- **Secure login system** with **role-based redirects**.
-- **Data protection** using **local storage** for session handling.
-
-### **Phone Input & Form Validation**
-- **Responsive** signup/login forms with **phone number input** and **validations**.
-
-### **Clean UI with Bootstrap**
-- **Fully responsive design** using **React-Bootstrap** for a **professional user experience**.
-
----
-
-##  **Tech Stack**
+✅ 3. Tech Stack
 
 - **Frontend**: React.js, React-Bootstrap, React-Router  
 - **Backend**: Node.js, Express.js  
@@ -41,7 +19,7 @@
 
 ---
 
-##  **How to Run Locally**
+✅ 4. Project Setup
 
 ### **Clone the repository**
 ```bash
@@ -86,6 +64,47 @@ npm start
 - **Add file uploads** for complaint proof  
 - **Role-based dashboard analytics**  
 - **Notification system** (email/SMS)
+
+✅ 5. Features
+
+### **User Roles**
+- **Ordinary Users** can **register complaints** and **track their status**.
+- **Agents** are **assigned complaints** and can **update resolution statuses**.
+- **Admins** manage all users and **assign complaints to agents**.
+
+### **Complaint Management**
+- **Submit**, **track**, and **manage complaints** by **category**, **location**, and **status**.
+- **Admins** can **view all complaints** and **assign them to agents**.
+
+### **Live Chat System**
+- Integrated **chat** between **agents** and **users** for each complaint (via **ChatWindow** component).
+
+### **Authentication & Authorization**
+- **Secure login system** with **role-based redirects**.
+- **Data protection** using **local storage** for session handling.
+
+### **Phone Input & Form Validation**
+- **Responsive** signup/login forms with **phone number input** and **validations**.
+
+### **Clean UI with Bootstrap**
+- **Fully responsive design** using **React-Bootstrap** for a **professional user experience**.
+
+✅ 6. 👨‍💻 Team Details
+
+Team ID: LTVIP2025TMID59501
+Team Size: 4
+
+Team Leader:
+Bandalapati Sasi Kumar
+
+Team Members:
+
+1.Amirisetty Bhanu Prakash
+
+2.Alle Sreeja
+
+3.Annam Sneha Latha
+
 
 
 
